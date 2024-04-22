@@ -7,8 +7,8 @@ def stockinette(cast_on_count: int, rows: int, expand: bool) -> None:
     print("Stockinette Knitting Pattern")
     print("Makes a V-shaped knit pattern on the front/right side of the project.")
     print(f"Cast on {cast_on_count} stitches.")
-    print(f"Row 1 (RS): Knit.")
-    print(f"Row 2 (WS): Purl.")
+    print("Row 1 (RS): Knit.")
+    print("Row 2 (WS): Purl.")
 
     if expand:
       for i in range(3, rows, 2):
