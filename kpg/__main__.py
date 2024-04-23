@@ -9,8 +9,6 @@ def main():
   args = read_cli_args()
   if args.pattern == "garter":
     garter(args.cast_on_count, args.rows, args.expand)
-  elif args.pattern == "granny_square":
-    print("Granny Square function will go here")
   elif args.pattern == "meeting_corners_square":
     meeting_corners_square(args.cast_on_count, args.expand)
   elif args.pattern == "ribbing":

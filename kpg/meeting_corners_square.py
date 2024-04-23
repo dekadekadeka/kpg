@@ -5,6 +5,10 @@ def meeting_corners_square(cast_on_count: int, expand: bool) -> None:
     print("Meeting Corners Square Knitting Pattern")
     print("Makes a garter stitch square with a raised line cutting diagonally across.")
     print("One side of the square is roughly half the size of the cast-on count.")
+    print("-----------------------------------")
+    print("CENTER DEC: Slip next 2 stitches together onto right-hand needle as if to K2tog.")
+    print("Knit next stitch, then pass both slipped stitches over knit stitch.")
+    print("-----------------------------------")
     
     row_number: int = 1
     
