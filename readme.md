@@ -18,4 +18,7 @@ Number of rows, default is 50. Not necessary for Meeting Corners Square. Must be
 Show EVERY row to be worked in the pattern, not just an abbreviated version. Useful for printing on paper and checking off as you work each row, and to get an idea of the scope of a project.
 
 ### cast_on_count (integer)
-Positional (mandatory) argument. If you don't pass in any other arguments, you need to pass in this one. 50 is a good one to use with the default values. Must be between 10 and 500 (9 and 499 for Meeting Corners Square), and an even number for Ribbing, Seed, and Meeting Corners Square.
+Positional (mandatory) argument. If you don't pass in any other arguments, you need to pass in this one. 50 is a good one to use with the default values.
+ - Must be between 10 and 500 (9 and 499 for Meeting Corners Square)
+ - Must be an even number for Ribbing and Seed
+ - Must be an odd number for Meeting Corners Square
