@@ -1,6 +1,6 @@
 def meeting_corners_square(cast_on_count: int, expand: bool) -> None:
-  if cast_on_count % 2 == 0 or cast_on_count < 5 or cast_on_count > 499:
-    print("Must be odd number between 5 and 499, otherwise this pattern will not work. Try again!")
+  if cast_on_count % 2 == 0 or cast_on_count < 9 or cast_on_count > 499:
+    print("Must be odd number between 9 and 499, otherwise this pattern will not work. Try again!")
   else:
     print("Meeting Corners Square Knitting Pattern")
     print("Makes a garter stitch square with a raised line cutting diagonally across.")
@@ -31,6 +31,7 @@ def meeting_corners_square(cast_on_count: int, expand: bool) -> None:
       row_number += 1
       
       if i > 2:
+        print(f"i: {i}")
         print(f"Row {row_number}: Knit.")
 
     if expand == False:
