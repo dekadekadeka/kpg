@@ -8,7 +8,7 @@ A command-line knit pattern generator created in Python.
 Show help message
 
 ### -p/--pattern (string)
-Choose which pattern (garter,meeting_corners_square,ribbing,seed,stockinette) you will generate. Default is stockinette.
+Choose which pattern (garter, meeting_corners_square, ribbing, seed, stockinette) you will generate. Default is stockinette.
 Each pattern has an explanation in the header.
 
 ### -r/--rows (integer)
@@ -22,3 +22,5 @@ Positional (mandatory) argument. If you don't pass in any other arguments, you n
  - Must be between 10 and 500 (9 and 499 for Meeting Corners Square)
  - Must be an even number for Ribbing and Seed
  - Must be an odd number for Meeting Corners Square
+ 
+ Don't worry about remembering all these, if you make a mistake you will receive an error message telling you what to do :)

@@ -34,5 +34,5 @@ def meeting_corners_square(cast_on_count: int, expand: bool) -> None:
         print(f"Row {row_number}: Knit.")
 
     if not expand:
-      print(f"Continue same pattern until 3 stiches remain.")
+      print("Continue same pattern until 3 stiches remain.")
     print("Center dec. Fasten off remaining stitches.")
