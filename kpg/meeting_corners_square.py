@@ -17,7 +17,7 @@ def meeting_corners_square(cast_on_count: int, expand: bool) -> None:
 
     # subtract 3 from the cast_on_count for the first pattern row
     base_row_stitch_count: int = cast_on_count - 3
-    loop_end: int = 1 if expand else cast_on_count - 10
+    loop_end: int = 1 if expand else cast_on_count - 9
 
     for i in range(base_row_stitch_count, loop_end, -2): # decrease by 2 each step
       # divide by 2
@@ -31,9 +31,8 @@ def meeting_corners_square(cast_on_count: int, expand: bool) -> None:
       row_number += 1
       
       if i > 2:
-        print(f"i: {i}")
         print(f"Row {row_number}: Knit.")
 
-    if expand == False:
+    if not expand:
       print(f"Continue same pattern until 3 stiches remain.")
     print("Center dec. Fasten off remaining stitches.")
