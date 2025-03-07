@@ -2,7 +2,7 @@
 A command-line knit pattern generator created in Python.
 
 ## Usage
-`kpg [-h] [-p {garter,meeting_corners_square,ribbing,seed,stockinette}] [-r ROWS] [-e] cast_on_count`
+`python3 -m kpg [-h] [-p {garter,meeting_corners_square,ribbing,seed,stockinette}] [-r ROWS] [-e] cast_on_count`
 
 ### -h
 Show help message
